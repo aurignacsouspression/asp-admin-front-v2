@@ -1,5 +1,8 @@
 {
   "rules": {
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+
     "directive-selector": [true, "attribute", "aspad", "camelCase"],
     "component-selector": [true, "element", "aspad", "kebab-case"]
   },
